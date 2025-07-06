@@ -1,22 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>First Gen Scholars Clone</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This site is live using GitHub Pages.</p>
+  <header>
+    <nav class="navbar">
+      <div class="logo">FirstGen</div>
+      <ul class="nav-links">
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Empowering First Generation Scholars</h1>
+      <p>Support. Opportunity. Leadership.</p>
+      <a href="#mission" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="mission" class="section light">
+    <h2>Our Mission</h2>
+    <p>We support first-generation students with resources, mentorship, and leadership opportunities to thrive in higher education.</p>
+  </section>
+
+  <section id="programs" class="section dark">
+    <h2>Programs</h2>
+    <ul>
+      <li>College Application Workshops</li>
+      <li>Mentorship Matching</li>
+      <li>Leadership Development</li>
+    </ul>
+  </section>
+
+  <section id="team" class="section light">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      <div class="member">
+        <img src="images/person1.jpg" alt="Team member 1" />
+        <h3>Alice Johnson</h3>
+        <p>Founder & Director</p>
+      </div>
+      <div class="member">
+        <img src="images/person2.jpg" alt="Team member 2" />
+        <h3>John Smith</h3>
+        <p>Program Coordinator</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section dark">
+    <h2>Contact Us</h2>
+    <p>Email: info@firstgenscholars.org</p>
+    <p>Instagram: @firstgenscholars</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FirstGen Scholars. All rights reserved.</p>
+  </footer>
 </body>
 </html>
